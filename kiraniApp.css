@@ -52,7 +52,8 @@ html{
     border: 1px solid;
     padding: 10px;
     transition: 0.2s ease;
-}
+    border-radius: 5px;
+}   
 .b1:hover{
     padding: 10px 15px;
 }
