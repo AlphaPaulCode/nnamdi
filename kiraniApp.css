@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background: #333;
+}
+.menuIcon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.subMenuWrap {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.subMenuItem {
+    text-align: center;
+}
+.container1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-top: 70px;
+}
+ .img1 {
+    display: block;
+    margin: 0 auto;
+    width: 90px;
+    border-radius: 40px;
+}
+.container1 h4{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #fff;
+}
+.container1 h5{
+    font-size: 15px;
+    color: #fff;
+}
+.b1{
+    text-align: center;
+    margin-top: 40px;
+    border: 2px solid;
+    padding: 10px;
+    transition: 0.2s ease;
+}
+.b1:hover{
+    padding: 10px 15px;
+}
+.b1 img{
+    border-radius: 8px;
+    margin-right: 20px;
+}
+.b1 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b1 h3 {
+    margin-left: 90px;
+    color: #fff;
+}
+
+.b1 i {
+    margin-left: 60px;
+    color: #fff;
+}
+.icons{
+    font-size: 30px;
+    padding: 10px;
+    border: none;
+    transition: 1s ease;
+}
+.icons a{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.icons:hover{
+    padding: 10px 15px;
+}
+
+
+
